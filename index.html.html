@@ -1,0 +1,576 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WatchAlpha.com</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    header {
+      background-color: black;
+      padding: 20px 0;
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: black;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      background-color: black;
+    }
+
+    .hero {
+      padding: 60px;
+      text-align: center;
+      background-color: #e0f0ff;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #333;
+    }
+
+    .services {
+      padding: 40px 20px;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .services h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .service-box {
+      display: inline-block;
+      width: 250px;
+      margin: 10px;
+      padding: 20px;
+      background-color: #f4f4f4;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1> WatchAlpha</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>"Your Time, Your Territory."</h1>
+
+  </section>
+
+ 
+
+</body>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="widthdevice-width, initial-scale=1.0"/>
+  <title>Upgraded Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    header {
+      background-color: black
+      padding: 20px 0;
+      color: white;
+      text-align: center;
+      animation: fadeDown 1s ease-in-out;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: black;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: black;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: black;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      animation: fadeUp 1s ease-in;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: black;
+    }
+
+    .hero .btn {
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+
+    .hero .btn:hover {
+      background-color: black;
+    }
+
+    .services {
+      padding: 40px 20px;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .services h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .service-box {
+      display: inline-block;
+      width: 250px;
+      margin: 10px;
+      padding: 20px;
+      background-color: black;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .service-box:hover {
+      transform: scale(1.05);
+    }
+
+    .gallery {
+      padding: 40px 20px;
+      background-color: blackf;
+      text-align: center;
+    }
+
+    .gallery h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .gallery-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .gallery-grid img {
+      width: 250px;
+      height: 160px;
+      border-radius: 8px;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    .contact {
+      padding: 40px 20px;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .contact form {
+      max-width: 500px;
+      margin: auto;
+    }
+
+    .contact input, .contact textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact button {
+      padding: 12px 24px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .contact button:hover {
+      background-color: #005fa3;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 30px;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .service-box, .gallery-grid img {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+ 
+  <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Watch Gallery | WatchAlpha</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin: 40px 0 20px;
+      color: #000;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 20px 40px;
+    }
+
+    .gallery-item {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+    }
+
+    .item-info {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .item-info h3 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+
+    .item-info p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .item-info button {
+      background: #000;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .item-info button:hover {
+      background: #444;
+    }
+
+    @media (max-width: 600px) {
+      h2 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Luxury Watch Gallery</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #000;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .card {
+      background-color: #111;
+      border-radius: 10px;
+      overflow: hidden;
+      width: 300px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .caption {
+      padding: 20px;
+      font-size: 1rem;
+      color: #ddd;
+    }
+
+    .caption strong {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Explore Our Luxury Watch Collection</h1>
+
+  <div class="gallery">
+    <div class="card">
+      <img src="html lang=en.webp" alt="Franck Muller Watch">
+      <div class="caption">
+        <strong>Franck Muller Mega Complication</strong>
+        A masterpiece of Swiss engineering—where elegance meets complexity.
+      </div>
+    </div>
+    
+    <div class="card">
+      <img src="Jewelevina-On-Page-May-2024-1024x682.png" alt="Rolex GMT Watch">
+      <div class="caption">
+        <strong>Rolex GMT-Master II Gold</strong>
+        Iconic luxury and unmatched precision for world travelers.
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="Richard Mille Watches-jpg.jpeg" alt="Richard Mille Watch">
+      <div class="caption">
+        <strong>Richard Mille RM 67-02</strong>
+        Ultra-lightweight, bold design — made for elite performance.
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Watch Collection</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .hero-section {
+      background: url('html lang=en.webp') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    }
+
+    .content {
+      position: relative;
+      text-align: center;
+      color: #fff;
+      z-index: 1;
+      padding: 20px;
+    }
+
+    .content h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+
+    .content p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .content a {
+      text-decoration: none;
+      color: #000;
+      background-color: #fff;
+      padding: 12px 24px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .content a:hover {
+      background-color: #d6d6d6;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero-section">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Timeless Luxury</h1>
+      <p>Discover the world's finest watches built for precision and style.</p>
+      <a href="#gallery">Explore Collection</a>
+    </div>
+  </section>
+ 
+  
+</html>
